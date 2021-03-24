@@ -1,0 +1,3 @@
+Alter  table Tb_MtoServicio
+add constraint MtoServicio_FK_Mantenimiento
+FOREIGN KEY (MtoServicio_Mantenimientos) REFERENCES Tb_Mantenimiento(Mantenimiento_Id);
